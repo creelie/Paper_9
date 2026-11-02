@@ -9,3 +9,11 @@ This repository holds the LaTeX source (`tex/`: `main.tex`, the sections, the fi
 - III. *Hodge Classes beyond the Weil Lines*, https://github.com/creelie/Paper_10
 
 Build: `cd tex && latexmk -pdf main.tex` (0 errors, 0 bad boxes, no undefined references).
+
+## Archive
+
+| Release | DOI |
+|---|---|
+| v1.0.0 | [10.5281/zenodo.23885236](https://doi.org/10.5281/zenodo.23885236) |
+
+Concept DOI of all versions: [10.5281/zenodo.23885235](https://doi.org/10.5281/zenodo.23885235).

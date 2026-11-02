@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper."
+title: "Secant Objects for Weil Classes on Abelian Varieties"
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+  - family-names: Bhattacharya
+    given-names: Ushashi
+    orcid: "https://orcid.org/0009-0002-2254-3914"
+version: 1.0.0
+date-released: 2026-11-02
+doi: 10.5281/zenodo.23885236
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23885235
+    description: Concept DOI of all versions
+  - type: doi
+    value: 10.5281/zenodo.23885236
+    description: Version DOI of v1.0.0
+repository-code: https://github.com/creelie/Paper_9
+license: CC-BY-4.0
