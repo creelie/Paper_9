@@ -1,0 +1,91 @@
+\documentclass[11pt,reqno]{amsart}
+\input{preamble}
+\graphicspath{{figures/}}
+\providecommand{\extref}[1]{\texttt{[?#1]}}
+
+\title[Secant objects for Weil classes]
+      {Secant Objects for Weil Classes on Abelian Varieties}
+
+\author{Deep Bhattacharjee\textsuperscript{\dag}}
+\address{Electro-Gravitational Space Propulsion Laboratory (EGSPL),
+  Bhubaneswar, Odisha 751030, India}
+\curraddr{Formerly, University of Calcutta (Heramba Chandra College),
+  23/49 Gariahat Road, Golpark, Kolkata 700029, West Bengal, India}
+\email{d.bhattacharjee@erl-forschung.de}
+\email{itsdeep@live.com}
+\email{egspl@proton.me}
+\urladdr{\textnormal{ORCID
+  \href{https://orcid.org/0000-0003-0466-750X}{0000-0003-0466-750X}}}
+
+\author{Ushashi Bhattacharya}
+\address{Formerly, National Taiwan University, Taipei 106319, Taiwan}
+\email{rai.bhattacharya.in@gmail.com}
+\urladdr{\textnormal{ORCID
+  \href{https://orcid.org/0009-0002-2254-3914}{0009-0002-2254-3914}}}
+
+\thanks{\textsuperscript{\dag}\,Corresponding author: Deep Bhattacharjee,
+\texttt{d.bhattacharjee@erl-forschung.de}, \texttt{itsdeep@live.com}.}
+
+\thanks{Deep Bhattacharjee: Electro-Gravitational Space Propulsion Laboratory
+(EGSPL), Bhubaneswar, Odisha 751030, India; formerly, University of Calcutta
+(Heramba Chandra College), 23/49 Gariahat Road, Golpark, Kolkata 700029, West
+Bengal, India. Ushashi Bhattacharya: formerly, National Taiwan University,
+Taipei 106319, Taiwan.}
+
+\thanks{This paper and its companions \cite{paperI,paperIII} together replace
+the earlier paper \emph{Algebraic loci of Weil classes on abelian varieties}
+by the authors and Priyabrata Mandal (archive \cite{BMB26}); every result of
+that paper appears in one of the three with its proof. The preprint
+\emph{Relative secant cycles and Hodge classes} \cite{BB26} contains errors
+and incomplete proofs and is replaced by them.}
+
+\thanks{Every proof is given in the text. Programs that repeat much of the
+finite arithmetic, and a Lean~4 certificate of part of it, are archived as
+described in the statement on data availability at the end of the paper; no
+statement rests on them.}
+
+\date{\today}
+
+\subjclass[2020]{Primary 14C30, 14C25; Secondary 14F08, 14K22, 14K20, 13D07, 14D07}
+
+\keywords{Hodge conjecture, Weil classes, semiregularity, secant sheaves}
+
+\begin{document}
+
+\begin{abstract}
+We determine what closing the algebraic locus of the Weil classes of an
+abelian variety of Weil type requires of a single object at a single point:
+a perfect complex at one point of complex multiplication whose Chern
+character is a Weil class plus a polynomial in the polarisation and whose
+semiregularity map is injective makes the Weil classes algebraic on the
+whole family; the criterion is never met when the Chern character is exactly
+a Weil class, for any CM field, and with powers of the polarisation added it
+becomes one number, computed exactly for quartic CM fields; and the secant
+sheaves of the split member, sums and convolutions of line bundles, and
+the supports of a complex meeting the criterion are each excluded at a
+precise point.
+\end{abstract}
+
+\enlargethispage{6pt}
+\maketitle
+
+\setcounter{tocdepth}{1}
+\begingroup
+\setlength{\parskip}{0pt}
+\tableofcontents
+\endgroup
+
+\input{sections/01_introduction}
+\input{sections/10c4_rank}
+\input{sections/10c5_polarised}
+\input{sections/10c6_objects}
+\input{sections/10c7_markman}
+\input{sections/10c8_supports}
+\input{sections/10d1b_cmcriterion}
+\input{sections/10d2_quartic}
+
+\input{declarations}
+
+\input{bibliography}
+
+\end{document}

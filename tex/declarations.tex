@@ -1,0 +1,51 @@
+% \zenodoCodeID is the DOI the paper cites for the archive of the earlier
+% paper on Weil classes, in the data availability section and in the entry
+% BMB26 of the bibliography: the version DOI of release v5.0.1 of that
+% archive, a version of the concept record 10.5281/zenodo.22950275.
+\newcommand{\zenodoCodeID}{10.5281/zenodo.23225483}
+\newcommand{\zenodoCodeDOI}{%
+  \href{https://doi.org/\zenodoCodeID}{\texttt{\zenodoCodeID}}}
+
+\section*{Acknowledgements}
+The paper builds on the theorems of Eyal Markman on secant sheaves and Weil
+classes, on the semiregularity theory of Spencer Bloch, Ragnar-Olaf
+Buchweitz and Hubert Flenner, and on the descriptions of Hodge classes on
+abelian varieties by Ben Moonen, Yuri Zarhin, Yves Andr\'e and James Milne.
+We thank Priyabrata Mandal for the collaboration on the earlier paper on
+Weil classes, whose results this paper and its companions \cite{paperI,paperIII} divide between them.
+
+\section*{Declarations}
+
+\subsection*{Funding}
+The authors received no funding for this work.
+
+\subsection*{Competing interests}
+The authors have no competing interests to declare.
+
+\subsection*{Ethics approval and consent}
+This article reports no research involving human participants, human data or
+animals, so ethics approval and consent to participate or to publish were not
+required. The results are original and have not been published elsewhere
+except in the earlier paper named on the title page, which this paper and its
+companions replace, and the work of others is credited by citation throughout.
+
+\subsection*{Data availability}
+The archive \cite{BMB26} is deposited on Zenodo under the DOI
+\zenodoCodeDOI. It holds programs that repeat much of the finite arithmetic of this paper and its companions \cite{paperI,paperIII}
+as an independent check, a Lean~4 certificate of part of that arithmetic, the
+Macaulay2 computations of local $\Ext$ algebras with their output, and the
+generators and TikZ sources of the figures; its programs perform $2218$
+checks, all of which pass, and the Lean kernel checks four hundred and nine
+theorems, each depending on no axiom or on propositional extensionality
+alone. Deep Bhattacharjee computed all the calculations, in C, Python, Julia,
+Macaulay2, Lean~4 and shell scripts, with the assistance of Claude Code, an
+AI model developed by Anthropic. The archive is immutable at that DOI;
+the command \texttt{python3 code/verify\_all.py} in it runs every check and
+ends with their count, and \texttt{lean HodgeObstruction.lean} in its folder
+\texttt{lean} checks the certificate and prints the axioms of each theorem.
+The Lean theorems certify finite arithmetic only: rank certificates,
+enumerations, lattice computations and polynomial identities; no geometric
+argument of the three papers is formalised, and every proof in the text was
+written and checked by the authors. The authors are responsible for the
+mathematical statements and their proofs. No other data were generated or
+analysed.
